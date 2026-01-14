@@ -8,8 +8,8 @@ import {qryWithMltShare} from "./qryByMltShare";
 //     database: 'HxPay'
 // });
 
-
-
+console.log('测试多表查询...');
+console.log('测试多表查询...');
 
 
 (async () => {

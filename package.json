@@ -4,6 +4,7 @@
     "node-sql-parser": "^5.4.0"
   },
   "devDependencies": {
-    "@types/mssql": "^9.1.8"
+    "@types/mssql": "^9.1.8",
+    "ts-node": "^10.9.2"
   }
 }
