@@ -1,0 +1,24 @@
+import {qryWithMltShare} from "./qryByMltShare";
+
+
+// const pool = await sql.connect({
+//     user: 'sa',
+//     password: '123456',
+//     server: 'localhost',
+//     database: 'HxPay'
+// });
+
+
+
+
+
+(async () => {
+    const rows = await qryWithMltShare( {
+        fromTables: 'Node2026.hxpay.dbo.pay_in_order_202601,orders_202601,orders_202602',
+        whereExpression: 'WHERE status = 1',
+        orderbyExprs: 'ORDER BY id DESC',
+        size: 15
+    });
+   // console.log(rows);
+})();
+
