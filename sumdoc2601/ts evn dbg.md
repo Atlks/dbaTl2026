@@ -62,7 +62,7 @@ incde..lauch.json and tsconfig.json
 不需要 tsc 编译
 
 5. "cwd": "${workspaceRoot}"
-   设置工作目录为项目根目录。
+   设置工作目录为项目根目录。。。
 
 6. "protocol": "inspector"
    使用 Node 的 inspector 协议（现代调试方式）。
